@@ -7,7 +7,7 @@ This project was carried to identify a robust, accurate predictive model that ca
 + E-mails : jherath1@binghamton.edu, zli191@binghamton.edu
 + video - [link](https://www.youtube.com/watch?v=KA2OW528ZYw&t=1s)
 
-Instructions to run data collection code:
+#### Instructions to run data collection code:
 
 1. Put the 3 folders: BaseStation1, Relay, Sender into the App folder under the TinyOS directory. 
 2. Run the serial forwarder: sudo java net.tinyos.sf.SerialForwarder -comm serial@/dev/ttyUSB0:telosb
@@ -17,7 +17,7 @@ Note: to run this part, you need to plug the basestation mote to the usb port. A
 make telosB install,NODEID
 The node ID for BaseStation is 633, relay is 622, sender is 589. 
 
-Instructions to run predictive model code:
+#### Instructions to run predictive model code:
 
 1. open a terminal in Predictive_Model/ directory
 2. Activate tensorflow virtual environment
